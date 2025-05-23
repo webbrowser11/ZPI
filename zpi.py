@@ -1,7 +1,7 @@
 from mpmath import mp
 import os
 
-mp.dps = 1_000_010
+mp.dps = 1_000_000
 pi_str = str(mp.pi)
 
 output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pi.txt")
